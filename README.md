@@ -11,128 +11,164 @@
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4169E1&center=true&vCenter=true&random=false&width=500&lines=Learning+SQL+Every+Day+💪;Building+Real+Projects+🎯;Becoming+Data-Driven+📊" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4169E1&center=true&vCenter=true&width=600&lines=Learning+SQL+Daily+💪;Building+Real+Projects+🎯;Mastering+Data+Analysis+📊" alt="Typing SVG" />
 
 <br>
 
-[**🔥 View Challenge**](http://indiandataclub.com/) • [**💼 LinkedIn**](https://www.linkedin.com/in/nihalmishra01) • [**🐛 Report Bug**](https://github.com/NihalMishra01/21-Days-SQL-Challenge/issues)
+[🔥 **View Challenge**](http://indiandataclub.com/) • [💼 **LinkedIn**](https://www.linkedin.com/in/nihalmishra01) • [🐛 **Report Bug**](https://github.com/NihalMishra01/21-Days-SQL-Challenge/issues)
 
 </div>
 
 ---
 
-## 📖 About the Challenge
+## 📖 About The Challenge
 
-I’m currently participating in the **21 Days SQL Challenge** by [Indian Data Club](http://indiandataclub.com/), a hands-on journey from beginner to advanced SQL mastery.  
-This repository serves as a daily learning journal containing my progress logs, code solutions, and reflections.
+I’m taking part in the **21 Days SQL Challenge** organized by [**Indian Data Club**](http://indiandataclub.com/) to strengthen my SQL skills from **beginner to advanced** through **hands-on learning** and **real-world datasets**.
 
-> **Mission:** Build production-grade SQL skills through consistent practice, real datasets, and analytical problem-solving.
+> 🎯 **Mission:** Build production-ready SQL skills through consistent practice, real-world datasets, and performance-oriented problem-solving.
 
 ---
 
-### 🎯 Challenge Overview
+## 🧩 Challenge Structure
 
 | Aspect | Details |
-|--------|---------|
-| Duration | 21 consecutive days |
-| Daily Commitment | 1–2 hours of focused learning |
-| Topics | SQL queries, Joins, Subqueries, Window Functions, CTEs, Optimization, Data Modeling |
-| Learning Approach | Real-world datasets with industry-relevant problems |
-| Target Roles | Data Analyst, Data Engineer, Data Scientist, Backend Developer |
+|--------|----------|
+| **Duration** | 21 consecutive days |
+| **Daily Commitment** | 1–2 hours of focused learning |
+| **Topics Covered** | Queries, Joins, Subqueries, Window Functions, CTEs, Optimization, Data Modeling |
+| **Practice Approach** | Real-world datasets with industry-level problems |
+| **Target Roles** | Data Analyst, Data Engineer, Data Scientist, Backend Developer |
 
 ---
 
 ## 💡 Why Take This Challenge?
 
-> **SQL is the backbone of every data-driven career.**
+> **SQL = The Foundation of Every Data-Driven Career**
 
-- Most in-demand technical skill for data roles  
-- Unified query language across major databases  
-- Essential for analytics, BI, and ML data prep  
-- Required in over 90% of data analyst job postings  
+✅ In-demand skill for all data roles  
+✅ Works across all major databases  
+✅ Essential for AI/ML data preparation  
+✅ Key for business intelligence & analytics  
+✅ Required by 90%+ of data-related positions  
 
-**Learning Goals:**
+### 🎓 My Learning Goals:
 - Write optimized queries for large datasets  
-- Master joins, subqueries, and logical operators  
-- Understand normalization and schema design  
-- Create real-world analytics projects  
-- Prepare confidently for technical interviews  
+- Master complex joins, subqueries, and filtering  
+- Understand database design & constraints  
+- Analyze data with real-world projects  
+- Prepare confidently for data interviews  
 
 ---
 
-## 🔥 Day 1: SQL Fundamentals & Data Retrieval
-**📆 Date:** November 3, 2025  
-**⏱️ Time Invested:** 2 hours  
-**📂 File:** [Day1 SQL Challenge.sql](https://github.com/NihalMishra01/21-Days-SQL-Challenge/blob/main/Day1%20SQL%20Challenge.sql)
+## 🔥 Day 1 — SQL Fundamentals & Data Retrieval
 
-**Topics Learned**
-- Creating tables with constraints  
-- Choosing appropriate data types  
-- Primary key implementation  
-- SELECT and WHERE fundamentals  
-- DISTINCT and LIMIT usage  
+**📅 Date:** November 3, 2025  
+**🕒 Time Spent:** 2 hours  
+**📁 File:** [Day1 SQL Challenge.sql](https://github.com/NihalMishra01/21-Days-SQL-Challenge/blob/main/Day1%20SQL%20Challenge.sql)
 
-**Practice Dataset:** Hospital Management System  
-Created tables: `patients` and `service_weekly` with realistic fields covering patient records, services, and satisfaction metrics.
+### 📘 Topics Covered
+- `CREATE TABLE` with constraints  
+- Data types (`VARCHAR`, `INT`, `DATE`)  
+- `PRIMARY KEY` implementation  
+- `SELECT`, `WHERE`, and `DISTINCT`  
+- `LIMIT` for pagination  
 
-**Problems Solved (7/7)**  
-Key concepts practiced: filtering, comparison operators, DISTINCT selection, and date conditions.
+### 🏥 Practice Dataset — *Hospital Management System*
+**Tables:**  
+- `patients`: patient demographics & records  
+- `service_weekly`: weekly service analytics  
 
-**Key Takeaways**
-> "The foundation of strong queries lies in understanding your data structure."
+### ✅ Problems Solved (7/7)
+| # | Problem | Concept | Status |
+|---|----------|----------|--------|
+| 1 | Retrieve all patient records | SELECT * | ✅ |
+| 2 | Select specific columns | Column selection | ✅ |
+| 3 | Display first 10 service records | LIMIT | ✅ |
+| 4 | List unique hospital services | DISTINCT | ✅ |
+| 5 | Filter patients above 40 years | WHERE | ✅ |
+| 6 | Query emergency service patients | WHERE | ✅ |
+| 7 | Retrieve patients after date | WHERE with dates | ✅ |
 
----
+**💡 Key Takeaways:**  
+> “The foundation of great queries starts with understanding your data structure.”  
 
-## ⚡ Day 2: Advanced Filtering & Logical Operators
-**📆 Date:** November 4, 2025  
-**⏱️ Time Invested:** 2 hours  
-**📂 File:** [Day2 SQL Challenge.sql](https://github.com/NihalMishra01/21-Days-SQL-Challenge/blob/main/Day2%20SQL%20Challenge.sql)
-
-**Topics Learned**
-- Advanced WHERE conditions  
-- Logical operators (AND, OR, NOT)  
-- IN, BETWEEN, LIKE, and ORDER BY clauses  
-- Range filtering and combined conditions  
-
-**Practice Dataset:** Hospital Management System (expanded)  
-Added tables: `staff` and `staff_schedule` for tracking attendance, roles, and weekly performance.
-
-**Problems Solved (9/9)**  
-Practiced combining filters, handling multiple criteria efficiently, and managing text pattern queries.
-
-**Key Takeaways**
-> "Logical operators transform simple queries into powerful analytical tools."
+- Proper table design prevents data redundancy  
+- Avoid `SELECT *` in production queries  
+- Use filters efficiently for time-based data  
+- Be cautious with DISTINCT—it can affect performance  
 
 ---
 
-## 📊 Challenge Stats
+## 🔥 Day 2 — Advanced Filtering & Logical Operators
+
+**📅 Date:** November 4, 2025  
+**🕒 Time Spent:** 2 hours  
+**📁 File:** [Day2 SQL Challenge.sql](https://github.com/NihalMishra01/21-Days-SQL-Challenge/blob/main/Day2%20SQL%20Challenge.sql)
+
+### 📘 Topics Covered
+- Advanced `WHERE` conditions  
+- Logical operators (`AND`, `OR`, `NOT`)  
+- Comparison (`>`, `<`, `!=`, `>=`, `<=`)  
+- `IN`, `BETWEEN`, and `LIKE`  
+- `ORDER BY` for sorting  
+
+### 🏥 Practice Dataset
+**Tables Added:**  
+- `staff`: hospital staff information  
+- `staff_schedule`: attendance tracking  
+
+### ✅ Problems Solved (9/9)
+| # | Problem | Concept | Status |
+|---|----------|----------|--------|
+| 1 | ICU patients | Simple filter | ✅ |
+| 2 | Age > 60 | Comparison | ✅ |
+| 3 | Doctors only | Role-based filter | ✅ |
+| 4 | Beds < 20 | Numeric comparison | ✅ |
+| 5 | Emergency after date | AND | ✅ |
+| 6 | Surgery or general medicine staff | IN | ✅ |
+| 7 | Satisfaction 70–90 | BETWEEN | ✅ |
+| 8 | Refused > 50 OR morale < 60 | OR | ✅ |
+| 9 | Names starting with 'A' | LIKE | ✅ |
+
+**💡 Key Takeaways:**  
+> “Logical operators are the backbone of data filtering.”  
+
+- `AND` → All conditions true  
+- `OR` → Any condition true  
+- `IN` → Cleaner than multiple ORs  
+- `BETWEEN` → Inclusive range  
+- `LIKE` → Useful but slow on huge data  
+
+---
+
+## 📊 Challenge Progress
 
 <div align="center">
 
-| Metric | Count |
-|--------|-------|
-| Days Completed | 2 / 21 |
-| Problems Solved | 16 |
-| Files Uploaded | 2 |
-| Total Hours | 4 |
-| Learning Streak | 2 days |
+| Metric | Value |
+|---------|-------|
+| 📝 Days Completed | 2 / 21 |
+| ✅ Problems Solved | 16 |
+| 📁 Files Uploaded | 2 |
+| ⏱️ Total Hours | 4 |
+| 🔥 Current Streak | 2 days |
 
-**Progress Bar:**  
-[██░░░░░░░░░░░░░░░░░░] 9.52% Complete  
+**Progress:**  
+[██░░░░░░░░░░░░░░░░░░░░░░░] **9.52% Complete**
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
@@ -140,32 +176,31 @@ Practiced combining filters, handling multiple criteria efficiently, and managin
 
 ## 📂 Repository Structure
 
-| File/Folder | Description |
-|-------------|-------------|
-| README.md | Full project documentation |
-| Day1 SQL Challenge.sql | Day 1 solutions |
-| Day2 SQL Challenge.sql | Day 2 solutions |
-| … | Days 3–20 |
-| Day21 SQL Challenge.sql | Final challenge |
-| datasets/ | All practice datasets |
+| File / Folder | Description |
+|---------------|-------------|
+| 📄 `README.md` | Full documentation |
+| 📜 `Day1 SQL Challenge.sql` | Day 1 queries |
+| 📜 `Day2 SQL Challenge.sql` | Day 2 queries |
+| 📜 `Day3–Day20.sql` | Work in progress |
+| 📜 `Day21 SQL Challenge.sql` | Final challenge |
+| 📊 `datasets/` | Practice CSV files |
 
 ---
 
-## 🌟 Daily LinkedIn Updates
+## 🌍 Daily LinkedIn Updates
 
-I share daily progress on LinkedIn featuring code snippets, insights, and best practices. Join the journey:
+Follow my journey on [**LinkedIn**](https://www.linkedin.com/in/nihalmishra01) for:
+- 💬 Daily learnings & SQL insights  
+- 💡 Query optimization tips  
+- 🧠 Problem-solving breakdowns  
+- 🔗 Community discussions  
 
-- 🧩 SQL techniques in action  
-- 💡 Real-world problem-solving approaches  
-- 🧠 Key takeaways and mistakes to avoid  
-- 🤝 Community learning discussions  
-
-**Connect:** [LinkedIn Profile](https://www.linkedin.com/in/nihalmishra01)  
-**Hashtags:** `#21DaysSQLChallenge` `#SQL` `#DataAnalytics` `#LearningInPublic`
+**Hashtags:**  
+`#21DaysSQLChallenge` `#SQL` `#DataAnalytics` `#DataScience` `#LearnWithIDC` `#LearningInPublic`
 
 ---
 
-## 🤝 Collaborate and Connect
+## 🤝 Connect & Collaborate
 
 <div align="center">
 
@@ -175,30 +210,25 @@ I share daily progress on LinkedIn featuring code snippets, insights, and best p
 
 </div>
 
-**Open For:**  
-- SQL collaborations and peer reviews  
-- Data projects and open discussions  
-- Feedback on solutions and structure  
-
 ---
 
 ## 💪 Motivation
 
-> “The expert in anything was once a beginner. The key is to start and stay consistent.”
+> *“The expert in anything was once a beginner — consistency turns curiosity into mastery.”*
 
-This repository embodies continuous learning through:
-- Public accountability  
-- Problem-based learning  
-- Knowledge sharing  
-- Building a visible growth journey  
+**Why I’m Doing This Publicly:**  
+- 🌱 Accountability & consistency  
+- 📚 Learning through teaching (Feynman Technique)  
+- 🌐 Community building  
+- 💼 Demonstrating skill growth to employers  
 
 ---
 
 <div align="center">
 
-### ⭐ If this helped or inspired you, consider giving it a star!
+⭐ **If you find this project useful, don’t forget to star it!**  
 
-Together, let’s master SQL—one query at a time!  
+**Let’s master SQL together — one query at a time. 💪**  
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=NihalMishra01.21-Days-SQL-Challenge)
 
